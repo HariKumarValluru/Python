@@ -12,3 +12,15 @@ print(r)
 
 for i in r[::-2]:
     print(i)
+
+print("*"*50)
+
+for i in range(99,0,-2):
+    print(i)
+
+print("*"*50)
+
+print(range(0,100)[::-2] == range(99,0,-2))
+
+for i in range(0,100,-2):
+    print(i)
